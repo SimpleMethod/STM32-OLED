@@ -1,0 +1,70 @@
+Configuration	WS0010_STM32
+STM32CubeMX 	5.2.0
+Date	07/02/2019
+MCU	STM32F411RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	B1 [Blue PushButton]
+8	PC0	GPIO_Output	OLED_RS
+9	PC1	GPIO_Output	OLED_E
+14	PA0-WKUP	GPIO_Output	OLED_D7
+15	PA1	GPIO_Output	OLED_D6
+16	PA2	USART2_TX	USART_TX
+17	PA3	USART2_RX	USART_RX
+20	PA4	GPIO_Output	OLED_D5
+21	PA5	GPIO_Output	LD2 [Green Led]
+26	PB0	GPIO_Output	OLED_D4
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	B1 [Blue PushButton]
+8	PC0	GPIO_Output	OLED_RS
+9	PC1	GPIO_Output	OLED_E
+14	PA0-WKUP	GPIO_Output	OLED_D7
+15	PA1	GPIO_Output	OLED_D6
+16	PA2	USART2_TX	USART_TX
+17	PA3	USART2_RX	USART_RX
+20	PA4	GPIO_Output	OLED_D5
+21	PA5	GPIO_Output	LD2 [Green Led]
+26	PB0	GPIO_Output	OLED_D4
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : WS0010_STM32
+Project Folder : F:\STM32\WS0010_STM32
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_F4 V1.24.1
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
